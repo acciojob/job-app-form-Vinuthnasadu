@@ -9,19 +9,22 @@
 
 <body>
 	<!-- the entire body must be written by student -->
-	<form method="post">
+	<form action="mail to:saduvinuthna24@gmail.com" method="post">
 		<label for="name">Name*</label>
 		<input type="text" placeholder="Enter name"  id="name" required><br><br>
-		<label for="mail">Email*</label>
-		<input type="text" placeholder="Enter Email"  id="mail" required><br>
-		<p>Select Gender*:</p>
-        <input type="radio" id="male" name="Gender" value="Male">
+
+		<label for="email">Email*</label>
+		<input type="text" placeholder="Enter Email"  id="email" required><br>
+
+		<label for="gender">Gender:</label>
+        <input type="radio" id="male" name="Gender" value="Male" required>
         <label for="male">Male</label>
         <input type="radio" id="female" name="Gender" value="Female">
         <label for="female">Female</label><br>
-		<p>Laptop brand:</p>
+
+		<label for="laptop">Laptop Brand</label>
 		<select>
-			<option disabled selected id="laptop">Apple</option>
+			<option id="laptop">Apple</option>
 			<option id="laptop">Asus</option>
 			<option id="laptop">Hp</option>
 		</select>
@@ -29,12 +32,16 @@
 		<br>
         <label for="age">Age*:</label>
 		<input type="number" placeholder="Enter age"  id="age" required><br><br>
+
 		<label for="dob">Dob*:</label>
 		<input type="date" placeholder="Enter dateofbirth"  id="dob" required><br><br>
-		<label for="pwd">Password*:</label>
-		<input type="password" placeholder="Enter Password"  id="pwd" required><br><br>
+
+		<label for="password">Password*:</label>
+		<input type="password" placeholder="Enter Password"  id="password" required><br><br>
+
 		<label for="portfolio">Portfolio:</label>
 		<input type="url" placeholder="Enter url" id="portfolio"><br><br>
+
 		<button id="submit">Submit</button>
 	    </form>
 		
